@@ -1,0 +1,32 @@
+## MacOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+##JAVA
+*.class
+
+##package file
+*.jar
+
+##compiled file
+/target/
+**/target
+/example
+
+##Intellij project file
+.idea
+.idea/*.xml
+*.iml
+out
+gen
+build.gradlerebel.xml
+
+##gradle
+.gradle
+/build/
+**/build/
+.gradletasknamecache
+gradle-app.setting
+
+!gradle-wrapper.jar
